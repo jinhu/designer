@@ -84,8 +84,8 @@
       </polymer-ui-pages>
 
       <x-dom-serializer id="serializer"></x-dom-serializer>
-      <x-file-document id="loadFile" Xfilename="index.html" root="http://localhost:3003/designer/" on-file-document-loaded="{{documentLoaded}}" text="{{remoteHtml}}"></x-file-document>
-      <x-file-document id="saveFile" Xfilename="index.html" root="http://localhost:3003/designer/" on-file-document-saved="{{documentSaved}}"></x-file-document>
+      <x-file-document id="loadFile" Xfilename="index.html" root="http://localhost:9000/files/" on-file-document-loaded="{{documentLoaded}}" text="{{remoteHtml}}"></x-file-document>
+      <x-file-document id="saveFile" Xfilename="index.html" root="http://localhost:9000/files/" on-file-document-saved="{{documentSaved}}"></x-file-document>
     </template>
 
     <script>
