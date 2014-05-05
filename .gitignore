@@ -1,7 +1,2 @@
-node_modules
-dist
-test/temp
-.sass-cache
 components
-.tmp
-test/components/
+/.htaccess
